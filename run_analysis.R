@@ -149,7 +149,7 @@ CreateActivityColumn <- function (activity_labels_df, subject_list_df){
 activity_labels_df      <- LoadActivityLabels()
 features_df             <- LoadFeatures()
 
-#test dataset
+#training dataset
 training_raw_df         <- LoadTrainingDataSet()
 training_subject_df     <- LoadSubjectTrainingDataSet()
 training_subject_features_df <- CreateDataSetWithSubjectFeatures(training_raw_df, features_df, training_subject_df)
