@@ -3,7 +3,8 @@ library(dplyr)
 
 ################################################################################################################################################
 #
-# will use the ddply frmo the plyr library to re-arrange columns and summerize colums - mean and sb by subject per activity
+# will use the ddply from the plyr library to re-arrange columns and summerize colums - mean and standard deviation
+# by subject per activity
 #
 ################################################################################################################################################
 
